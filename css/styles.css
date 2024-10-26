@@ -646,8 +646,8 @@ img {
   border: none;
 }
 
-.modal-icon-close:hover,
-.modal-icon-close:focus {
+.modal-open:hover > .modal-icon-close,
+.modal-open:focus > .modal-icon-close {
   fill: #ffffff;
 }
 
