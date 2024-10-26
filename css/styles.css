@@ -540,6 +540,7 @@ img {
   margin-right: 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .footer-form-button {
   border-radius: 4px;
   padding: 8px 24px;
@@ -681,6 +682,7 @@ img {
 }
 .input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-icon {
@@ -715,8 +717,9 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-.modal-field {
-  margin-bottom: 8px;
+
+.input-field {
+  margin-bottom: 24px;
 }
 
 .model-button {
@@ -731,10 +734,9 @@ img {
   min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
-  border: none;
-  cursor: pointer
-  margin: auto;
   display: block;
+  border: none;
+  margin: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -765,7 +767,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox:checked + .modal-checkbox-text span {
+.modal-checkbox-input:checked + .modal-checkbox-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
