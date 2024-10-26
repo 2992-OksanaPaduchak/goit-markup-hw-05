@@ -758,10 +758,6 @@ img {
 }
 
 .modal-checkbox {
-  margin-right: 8px;
-}
-
-.modal-checkbox-text span {
   display: inline-flex;
   width: 16px;
   height: 16px;
@@ -794,8 +790,4 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   margin-left: 4px;
-}
-
-.margin-bottom-16 {
-  margin-bottom: 16px;
 }
